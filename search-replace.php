@@ -1,7 +1,7 @@
 <?php
 
     // edit this line to add old and new terms which you want to be replaced
-    $search_replace = array( 'old_term' => 'new_term' );
+    $search_replace = array( 'old_term' => 'new_term', 'old_term2' => 'new_term2' );
 
     //change the localhost,username,password and database-name according to your db
     mysql_connect("localhost", "username", "password") or die(mysql_error());
